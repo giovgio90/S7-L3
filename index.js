@@ -6,7 +6,6 @@ fetch("https://striveschool-api.herokuapp.com/books")
     usersObj.forEach((books) => {
       const singleBook = books;
 
-      const cardContainer = document.createElement("div");
       const col = document.createElement("div");
       col.className = "col-6 col-md-4 col-lg-3";
 
